@@ -1,0 +1,172 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+header h1 {
+  font-size: 36px;
+  font-weight: 700;
+  color: #110c9b;
+  padding: 0 25px 0 25px;
+}
+
+header p {
+  padding-top: 10px;
+  font-size: 10px;
+  letter-spacing: 7px;
+}
+
+#start {
+  margin-left: 0%;
+  margin-right: 0%;
+}
+
+#quest {
+  font-size: 16px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+#answerT {
+  margin: 10% 0% 0% 15%;
+}
+#answerF {
+  margin: 10% 0% 0% 15%;
+}
+
+#reset {
+  margin: 0% 27% 0% 23%;
+}
+
+body {
+  font-family: "Poppins";
+  font-size: 12px;
+  background-image: url("/images/background_01.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+header h1 {
+  font-family: "Poppins";
+  font-size: 60px;
+  text-align: center;
+  color: #110c9b;
+}
+
+header {
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 18px;
+  letter-spacing: 0px;
+  margin-top: 70px;
+  padding-bottom: 10px;
+}
+
+#start {
+  font-size: 40px;
+  position: relative;
+  background-color: #28712a;
+  border: none;
+  font-size: 28px;
+  color: #ffffff;
+  padding: 20px;
+  width: 200px;
+  text-align: center;
+  text-decoration: none;
+  overflow: hidden;
+  cursor: pointer;
+  border-radius: 45px;
+}
+
+#start:after {
+  content: "";
+  background: #868679;
+  display: block;
+  position: absolute;
+  margin-top: -120%;
+  opacity: 0;
+}
+
+#count {
+  text-align: center;
+  font-size: 16px;
+  padding-bottom: 10px;
+}
+
+#points {
+  text-align: center;
+  font-size: 25px;
+  padding-bottom: 10px;
+  padding-top: 10px;
+}
+
+#forgroundImage {
+  text-align: center;
+  padding-bottom: 20px;
+  text-transform: uppercase;
+  font-size: 15px;
+  letter-spacing: 1px;
+}
+#quest {
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-size: 30px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+#answerT {
+  margin: 5% 10% 0% 30%;
+  background-color: #5049e0;
+  border: none;
+  font-size: 20px;
+  color: #ffffff;
+  padding: 20px;
+  width: 150px;
+  text-align: center;
+  text-decoration: none;
+  overflow: hidden;
+  cursor: pointer;
+  border-radius: 45px;
+}
+#answerF {
+  margin: 5% 20% 0% 15%;
+
+  background-color: #cf4b99;
+  border: none;
+  font-size: 20px;
+  color: #ffffff;
+  padding: 20px;
+  width: 150px;
+  text-align: center;
+  text-decoration: none;
+  overflow: hidden;
+  cursor: pointer;
+  border-radius: 45px;
+}
+
+#winner {
+  text-align: center;
+  font-size: 45px;
+  padding-bottom: 10px;
+}
+
+#looser {
+  text-align: center;
+  font-size: 45px;
+  padding-bottom: 10px;
+}
+
+#reset {
+  background-color: #4caf50;
+  border: none;
+  font-size: 20px;
+  color: #ffffff;
+  padding: 20px;
+  width: 200px;
+  position: relative;
+  text-decoration: none;
+  overflow: hidden;
+  cursor: pointer;
+  margin-left: 40%;
+  margin-top: 5%;
+}

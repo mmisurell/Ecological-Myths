@@ -1,0 +1,53 @@
+<html>
+<head>
+
+<!-- Content Type Meta tag -->
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        
+<!--Responsive Viewport Meta tag-->
+     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+        
+        
+<title>Ecological Myths</title>
+
+<!-- FONT -->
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link
+  href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+  rel="stylesheet"
+/>
+
+<!-- Stylesheets -->
+	<link rel="stylesheet" type="text/css" href="/style.css">
+
+</head>
+<body>
+
+<header>
+<h1> Ecological Myths </h1>
+
+<button onclick="catAndQuest()" id="start"> START </button>
+</header>
+
+
+<div class="container">
+<div id="questions">
+	<div id="count"></div>
+	<div id="forgroundImage"></div>
+	<div id="quest"> </div>
+    <button onclick="answer(false)" style="display:none;" id="answerF"> Myth</button>
+	<button onclick="answer(true)" style="display:none;" id="answerT"> Truth</button>
+  <div id="points"></div>
+</div>
+<div id="winner" style="display:none;">YOU WIN! <br>Congrats, smartypants!</div>
+<div id="looser" style="display:none;">Sorry, no more questions.<br> You lose!</div>
+<button onclick="restart()" style="display:none;" id="reset"> PLAY AGAIN? </button>
+</div>
+</div>
+
+
+<!-- JavaScript -->
+		<script src="js/main.js"></script>
+</body>
+</html>
