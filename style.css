@@ -48,7 +48,7 @@ header p {
 body {
   font-family: "Poppins";
   font-size: 12px;
-  background-image: url("/images/background_01.jpg");
+  background-image: url("images/background_01.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;

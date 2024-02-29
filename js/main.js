@@ -3,28 +3,28 @@ const Questions = [
   {
     question: "Wild-caught fish is always a better choice.",
     answer: false,
-    image: `../images/fish.png`,
+    image: `images/fish.png`,
   },
   {
     question: "Organic means pesticide-free.",
     answer: false,
-    image: `../images/pesticides.png`,
+    image: `images/pesticides.png`,
   },
   {
     question: "Local always means more sustainable.",
     answer: false,
-    image: `../images/truck.png`,
+    image: `images/truck.png`,
   },
   {
     question: "Not all eco-friendly packaging is better for the environment.",
     answer: true,
-    image: `../images/paper-packaging.png`,
+    image: `images/paper-packaging.png`,
   },
   {
     question:
       "Food waste does contribute significantly to environmental issues.",
     answer: true,
-    image: `../images/food-waste.png`,
+    image: `images/food-waste.png`,
   },
 ];
 
