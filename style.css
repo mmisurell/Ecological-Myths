@@ -1,7 +1,11 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
 
 header h1 {
+<<<<<<< HEAD
   font-size: 1000px;
+=======
+  font-size: 24px;
+>>>>>>> f8fce1a7113e767794a062f787360efa78096757
   font-weight: 700;
   color: #110c9b;
   padding: 0 25px 0 25px;
@@ -9,7 +13,11 @@ header h1 {
 
 header p {
   padding-top: 10px;
+<<<<<<< HEAD
   font-size: 10rem;
+=======
+  font-size: 10px;
+>>>>>>> f8fce1a7113e767794a062f787360efa78096757
   letter-spacing: 7px;
 }
 
@@ -18,11 +26,25 @@ header p {
   margin-right: 0%;
 }
 
+<<<<<<< HEAD
 #answerT {
   margin: 0;
 }
 #answerF {
   margin: 0;
+=======
+#quest {
+  font-size: 16px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+#answerT {
+  margin: 0% 0% 0% 15%;
+}
+#answerF {
+  margin: 0% 0% 0% 15%;
+>>>>>>> f8fce1a7113e767794a062f787360efa78096757
 }
 
 #reset {
@@ -46,8 +68,11 @@ body {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
+<<<<<<< HEAD
   display: block;
   margin: 20px;
+=======
+>>>>>>> f8fce1a7113e767794a062f787360efa78096757
 }
 
 header h1 {
@@ -115,13 +140,21 @@ header {
   text-align: center;
   padding-top: 10px;
   padding-bottom: 10px;
+<<<<<<< HEAD
   font-size: 2rem;
+=======
+  font-size: 30px;
+>>>>>>> f8fce1a7113e767794a062f787360efa78096757
   padding-left: 20px;
   padding-right: 20px;
 }
 
 #answerT {
+<<<<<<< HEAD
   margin: 0;
+=======
+  margin: 5% 10% 0% 30%;
+>>>>>>> f8fce1a7113e767794a062f787360efa78096757
   background-color: #5049e0;
   border: none;
   font-size: 20px;
@@ -133,10 +166,17 @@ header {
   overflow: hidden;
   cursor: pointer;
   border-radius: 45px;
+<<<<<<< HEAD
   margin: 08px 25px 0 25px;
 }
 #answerF {
   margin: 0;
+=======
+}
+#answerF {
+  margin: 5% 20% 0% 15%;
+
+>>>>>>> f8fce1a7113e767794a062f787360efa78096757
   background-color: #cf4b99;
   border: none;
   font-size: 20px;
@@ -148,7 +188,10 @@ header {
   overflow: hidden;
   cursor: pointer;
   border-radius: 45px;
+<<<<<<< HEAD
   margin: 8px 25px 0 25px;
+=======
+>>>>>>> f8fce1a7113e767794a062f787360efa78096757
 }
 
 #winner {
@@ -179,6 +222,7 @@ header {
 .imageSize {
   height: 275px;
 }
+<<<<<<< HEAD
 
 #buttonZone {
   display: flex;
@@ -203,3 +247,5 @@ header {
     justify-content: space-between;
   }
 }
+=======
+>>>>>>> f8fce1a7113e767794a062f787360efa78096757
