@@ -56,6 +56,8 @@ function catAndQuest() {
   document.getElementById(
     "forgroundImage"
   ).innerHTML = `<img src="${question.image}" alt="Question Image">`;
+  // Add a class to trigger the animation
+  document.getElementById("forgroundImage").classList.add("animate-slideInTop");
 }
 
 // Function to handle cleanup after answering a question
@@ -100,6 +102,25 @@ function answer(value) {
   }
   catAndQuest(); // Move on to the next question
 }
+// Function to remove the animation class after the animation is complete
+function removeAnimationClass() {
+  document
+    .getElementById("forgroundImage")
+    .classList.remove("animate-slideInTop");
+}
+
+// Add an event listener to trigger the animation removal after animation completes
+document
+  .getElementById("forgroundImage")
+  .addEventListener("animationend", removeAnimationClass);
+
+// // Add event listeners to True and Myth buttons
+// document
+//   .getElementById("trueButton")
+//   .addEventListener("click", handleButtonClick);
+// document
+//   .getElementById("mythButton")
+//   .addEventListener("click", handleButtonClick);
 
 // Function to restart the game by reloading the page
 function restart() {
