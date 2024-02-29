@@ -1,0 +1,205 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+header h1 {
+  font-size: 1000px;
+  font-weight: 700;
+  color: #110c9b;
+  padding: 0 25px 0 25px;
+}
+
+header p {
+  padding-top: 10px;
+  font-size: 10rem;
+  letter-spacing: 7px;
+}
+
+#start {
+  margin-left: 0%;
+  margin-right: 0%;
+}
+
+#answerT {
+  margin: 0;
+}
+#answerF {
+  margin: 0;
+}
+
+#reset {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 5% auto 0 auto;
+  padding: 20px;
+  background-color: #28712a;
+  border: none;
+  font-size: 20px;
+  color: #ffffff;
+  cursor: pointer;
+  border-radius: 45px;
+}
+
+body {
+  font-family: "Poppins";
+  font-size: 12px;
+  background-image: url("images/background_01.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  display: block;
+  margin: 20px;
+}
+
+header h1 {
+  font-family: "Poppins";
+  font-size: 40px;
+  text-align: center;
+  color: #110c9b;
+}
+
+header {
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 18px;
+  letter-spacing: 0px;
+  margin-top: 25px;
+  padding-bottom: 10px;
+}
+
+#start {
+  font-size: 40px;
+  position: relative;
+  background-color: #28712a;
+  border: none;
+  font-size: 28px;
+  color: #ffffff;
+  padding: 20px;
+  width: 200px;
+  text-align: center;
+  text-decoration: none;
+  overflow: hidden;
+  cursor: pointer;
+  border-radius: 45px;
+}
+
+#start:after {
+  content: "";
+  background: #868679;
+  display: block;
+  position: absolute;
+  margin-top: -120%;
+  opacity: 0;
+}
+
+#count {
+  text-align: center;
+  font-size: 16px;
+  padding-bottom: 10px;
+}
+
+#points {
+  text-align: center;
+  font-size: 25px;
+  padding-bottom: 10px;
+  padding-top: 10px;
+}
+
+#forgroundImage {
+  text-align: center;
+  padding-bottom: 20px;
+  text-transform: uppercase;
+  font-size: 15px;
+  letter-spacing: 1px;
+}
+#quest {
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-size: 2rem;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+#answerT {
+  margin: 0;
+  background-color: #5049e0;
+  border: none;
+  font-size: 20px;
+  color: #ffffff;
+  padding: 20px;
+  width: 150px;
+  text-align: center;
+  text-decoration: none;
+  overflow: hidden;
+  cursor: pointer;
+  border-radius: 45px;
+  margin: 08px 25px 0 25px;
+}
+#answerF {
+  margin: 0;
+  background-color: #cf4b99;
+  border: none;
+  font-size: 20px;
+  color: #ffffff;
+  padding: 20px;
+  width: 150px;
+  text-align: center;
+  text-decoration: none;
+  overflow: hidden;
+  cursor: pointer;
+  border-radius: 45px;
+  margin: 8px 25px 0 25px;
+}
+
+#winner {
+  text-align: center;
+  font-size: 45px;
+  padding-bottom: 10px;
+}
+
+#looser {
+  text-align: center;
+  font-size: 45px;
+  padding-bottom: 10px;
+}
+
+#reset {
+  background-color: #28712a;
+  border: none;
+  font-size: 20px;
+  color: #ffffff;
+  padding: 20px;
+  width: 200px;
+  cursor: pointer;
+  border-radius: 45px;
+  margin-top: 5%;
+  justify-content: center;
+  align-items: center;
+}
+.imageSize {
+  height: 275px;
+}
+
+#buttonZone {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin: 0 25px 0 25px;
+}
+
+/*Mobile Screens*/
+@media (max-width: 768px) {
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  #buttonZone {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: space-between;
+  }
+}
